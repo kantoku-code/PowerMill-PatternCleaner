@@ -1,0 +1,29 @@
+//pm2019 macro  by kantoku
+//PatternCleaner.mac ver0.0.1
+//2Dオフセットを利用してパターンの自己交差を解消する
+//-------------------------------
+//本マクロはｺﾝﾃｷｽﾄﾒﾆｭｰからの起動の為、pattern.XMLに追記してください
+// <?xml version="1.0"  encoding="utf-8" ?>
+// <menupage>
+// 	<button label="ｸﾘｰﾝｱｯﾌﾟ" command='MACRO pattern\PatternCleaner.mac "%s"' />
+// </menupage>
+//-------------------------------
+//-------------------------------
+//ver0.0.1:完成
+//-------------------------------
+
+Function Main(string pattern_name){
+    
+    //修正のための距離
+    real OFFSETLENGTH = 0.001
+
+
+    //スタート
+    real offsetReverse = $OFFSETLENGTH * -1
+    EDIT PATTERN $pattern_name CURVEEDITOR START
+    CURVEEDITOR MODE OFFSET
+    MODE TRANSFORM OFFSET DISTANCE $OFFSETLENGTH
+    MODE TRANSFORM OFFSET DISTANCE $offsetReverse
+    CURVEEDITOR FINISH ACCEPT
+    YES
+}
