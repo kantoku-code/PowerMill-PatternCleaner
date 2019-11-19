@@ -1,5 +1,5 @@
 # ***PowerMill-PatternCleaner***
-This is a script for Autodesk software "PowerMill". 
+This is a macro for Autodesk software "PowerMill". 
 
 Use 2D offset to eliminate slight self-intersection of the pattern.
 
