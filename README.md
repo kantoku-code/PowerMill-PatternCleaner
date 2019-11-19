@@ -4,11 +4,14 @@ This is a script for Autodesk software "PowerMill".
 Use 2D offset to eliminate slight self-intersection of the pattern.
 
 # Installation
-Place the two files as described on the Help page. 
-・ Pattern.XML 
+Place the two files as described on the Help page.
+ 
+・ Pattern.XML
+ 
 ・ pattern \ PatternCleaner.mac 
 
-[English Help](http://help.autodesk.com/view/PWRM/2020/ENU/?guid=GUID-7F0556A8-484C-4B7D-B073-2B8BE4D564E2) 
+[English Help](http://help.autodesk.com/view/PWRM/2020/ENU/?guid=GUID-7F0556A8-484C-4B7D-B073-2B8BE4D564E2)
+ 
 [Japanese Help](http://help.autodesk.com/view/PWRM/2020/JPN/?guid=GUID-7F0556A8-484C-4B7D-B073-2B8BE4D564E2)
 
 # Usage
